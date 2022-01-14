@@ -5,7 +5,7 @@
 
 Link to hosted website [Ustudy Web Application](https://ustudylogin.web.app/)
 
-Link to [Github repository](https://github.com/sambohlen/web-applications-ustudy)
+Link to [Github repository](https://github.com/sambohlen/UstudyApp)
 
 ## Introduction
 This module required me to create a responsive single-page web application that would help the students at Solent University. The first section of the unit required research and a design for the application. After dedicated research I focused my idea on the time-management and organisational skills of the students. One statement reported that 80%-95% of students in college engaged in procrastination, Ellis & Knaus (2002). Assessment two was the next stage of the assignment. After completing the design in the first section of this project it was then time to develop what I had originally created. The app I created was called Ustudy and would allow users to log in/signup, input their course modules with project deadlines as well as set a timer to see how much work they have accomplished. The aim behind implementing these ideas into the app is to reduce procrastination within students’ lives. To develop this application, I would be delving into React Js. This would be my first time discovering react so it was interesting to see how I would enhance my skills in this language and also what other languages would help me along the journey. 

@@ -3,7 +3,7 @@
 ### Name: Samuel Bohlen
 ### Student Number: Q14081181
 
-Link to hosted website [Ustudy Web Application](https://ustudylogin.web.app)
+Link to hosted website [Ustudy Web Application](https://ustudylogin.web.app/)
 
 Link to [Github repository](https://github.com/sambohlen/web-applications-ustudy)
 

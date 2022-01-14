@@ -1,0 +1,531 @@
+body {
+    margin: 0px;
+}
+.container {
+    background-image: url(./assets/appbackground.png);
+    height: 100vh;
+    width: 100%;
+}
+h1, h2 {
+    color: #000 !important;
+}
+/* Login Form CSS */
+.login {
+    background-color: #F95C78;
+    height: 100vh;
+}
+.errorMessage {
+    margin: 0px;
+}
+.form-inputs p {
+    color: #F82020;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.form-container {
+    background: #fff;
+    margin: 30px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 5px 8px 0px rgba(255 153 0);
+}
+.social-container {
+    background: #fff;
+    margin: 0 auto;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#socialIconBox {
+    border: 3px solid #000;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 8px 0px #000;
+}
+.social-container a {
+    border: 0px !important;
+}
+a.social-icon {
+    border: none !important;
+    margin: 15px;
+}
+.form-inputs {
+    padding: 15px 0px;
+}
+.form-inputs input {
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+}
+.loginHeadings {
+    text-align: center;
+    font-size: 18px !important;
+    letter-spacing: 1.2px;
+}
+.joinHeadings {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fff !important;
+    font-size: 18px !important;
+    letter-spacing: 1.2px;
+}
+.form-label {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #BFBFBF;
+}
+.form-input-btn {
+    width: 100%;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    background-color: #27AE60;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 4px 0px rgb(0 0 0);
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+.form-input-login {
+    text-align: center;
+}
+.form-input-login h2 {
+    color: #fff !important;
+    font-size: 17px;
+}
+.form-input-login a {
+    color: #fff !important;
+}
+p.form-input-login {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+}
+input {
+    margin-top: 10px;
+    font-family: 'Montserrat';
+}
+.loginHeadings {
+    letter-spacing: 1.2px;
+    color: #fff !important;
+}
+.form-logo {
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.FormOpenBtn {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    width: 80%;
+    background-color: #fff;
+    border: 3px solid #000;
+    height: 80px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    box-shadow: 5px 8px 0px rgb(255 153 0);
+}
+
+/* Dash Header */
+
+.Hero {
+    background-color: #F95C78;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Hero h1 {
+    color: #fff !important;
+    font-size: 19px;
+    letter-spacing: 1.4px;
+}
+.Hero h1 span {
+    color: #FFC327 !important;
+}
+.Hero button {
+    background-color: #fff;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    border: 2px solid #000;
+    box-shadow: 0px;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.LogOutButton button {
+    cursor: pointer;
+}
+.create-modules-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.create-modules-heading h1 {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.create-project-icon {
+    font-size: 35px;
+    color: #000;
+}
+.errorMessage {
+    text-align: center;
+    color: #F82020;
+    font-size: 14px;
+}
+/* 404 Page */
+
+.not-found {
+    height: 100vh;
+    background: #EB8464;
+    color: #fff !important;
+    text-align: center;
+    padding-top: 150px;
+}
+.not-found h2 {
+    color: #fff !important;
+    font-size: 70px;
+    margin: 0px;
+    letter-spacing: 1.2px;
+}
+.not-found p {
+    font-size: 20px;
+    margin: 20px;
+    letter-spacing: 1.2px;
+}
+.not-found a {
+    color: rgb(0, 0, 0) !important;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+
+}
+.error-image {
+    width: 350px;
+}
+
+/* Edit/Create page CSS */
+
+.project-title {
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 0px 15px;
+    text-transform: capitalize;
+    box-shadow: 5px 8px 0px rgb(18, 145, 241);
+    margin-top: 20px !important;
+}
+.delete-button {
+    width: 88%;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    background-color: #F82020;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 4px 0px rgb(0 0 0);
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin: 0 auto;
+    display: block;
+}
+.EditShowcase {
+    height: 100vh;
+}
+.delete-project-icon {
+    font-size: 35px;
+    color: #000;
+    margin-top: 10px;
+}
+.edit-modules-heading {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    align-items: center;
+}
+.edit-modules-heading h1 {
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+/* Dashboard CSS */
+.Dash {
+    padding-bottom: 200px;
+    background-image: url(./assets/appbackground.png);
+}
+.modules-box {
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 0px 15px;
+    text-transform: capitalize;
+    box-shadow: 5px 8px 0px rgb(18, 145, 241);
+    margin-top: 10px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modules-box-empty {
+    background: #fff;
+    border: 3px solid rgb(101, 101, 101);
+    border-radius: 15px;
+    margin: 30px;
+    padding: 0px 15px;
+    text-transform: capitalize;
+    box-shadow: 5px 8px 0px rgb(155, 155, 155);
+    margin-top: 10px !important;
+}
+.modules-box-empty h1 {
+    color: rgb(155, 155, 155) !important;
+}
+a.modules-box-empty-link {
+    text-decoration: none;
+}
+.timerButton {
+    background: #27AE60;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    text-decoration: none;
+}
+p.timerButton {
+    color: #fff !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.modules-box a {
+    text-decoration: none;
+}
+.deadlines-box {
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 0px 15px;
+    text-transform: capitalize;
+    box-shadow: 5px 8px 0px #F95C78;
+    margin-top: 10px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hours-modules-box {
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 0px 15px;
+    text-transform: capitalize;
+    box-shadow: 5px 8px 0px rgb(255, 113, 4);
+    margin-top: 10px !important;
+    padding-bottom: 10px;
+}
+.hours-modules-box h1 {
+    font-size: 20px !important;
+}
+
+/* Stopwatch */
+
+.timer {
+    height: 100vh;
+    background-color: #1E87E8;
+    border-top: 3px solid #000;
+}
+.timer-modules-heading {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    padding-bottom: 0px !important;
+    align-items: center;
+}
+.timerSection {
+    background-color: #87C0F5;
+}
+.timer-form-container {
+    background: #fff;
+    margin: 30px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 8px 8px 0px #0d72cf;
+    margin-bottom: 50px;
+}
+.timer-icon {
+    font-size: 35px;
+    color: #000;
+    margin-top: 10px;
+}
+.delete-log {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    border: 0px;
+    box-shadow: 0px;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    color: #fff
+}
+.Timers h2 {
+    font-size: 35px;
+    color: #fff !important;
+}
+.Timers p {
+    color: #fff !important;
+    line-height: 25px;
+}
+.Timers {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+.display {
+    font-family: monospace;
+    font-size: 70px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 15px;
+    box-shadow: 8px 8px 0px rgb(6, 94, 177);
+}
+.display span {
+    margin-left: 0px;
+}
+#timer-buttons {
+    margin-top: 50px;
+}
+#timer-buttons button:nth-child(2) {
+    margin-left: 8px;
+  }
+#timer-buttons button {
+    font-size: 36px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+  }
+#timer-buttons button:hover {
+    background-color: #27AE60;
+    color: #fff;
+  }
+#timer-buttons button:active {
+    background-color: #27AE60;
+  }
+#timer-button:focus {
+    outline: 0;
+  }
+#stopButton {
+    background-color: #F82020 !important;
+}
+
+/* Media Queries */
+
+@media(min-width: 600px) {
+    .nav-menu {
+        left: -100% !important;
+    }
+    .nav-menu.active {
+        left: 0 !important;
+    }
+    .navbar {
+        background-color: #fff;
+    }
+    .form-logo {
+        width: 300px;
+    }
+    #socialIconBox {
+        width: 500px;
+    }
+    .FormOpenBtn {
+        width: 500px;
+    }
+    .form-container {
+        margin: 0 auto;
+        width: 440px;
+    }
+    .login {
+        overflow: auto;
+        padding-bottom: 100px;
+    }
+    .create-modules-heading {
+        justify-content: center;
+    }
+    .create-project-icon {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .timer-icon {
+        margin-left: 20px;
+    }
+    .Hero {
+        justify-content: right;
+        padding-right: 20px;
+    }
+    .Hero h1 {
+        margin-right: 20px;
+    }
+}
+@media (min-width: 800px) {
+    .delete-button {
+        width: 730px;
+    }
+    .project-title {
+        margin: 30px auto;
+        width: 700px;
+    }
+    .timer-form-container {
+        margin: 0px auto;
+        width: 700px;
+        margin-bottom: 30px;
+    }
+    .modules-box, .modules-box-empty, .hours-modules-box, .deadlines-box {
+        margin: 20px auto;
+        width: 700px;
+    }
+}
+@media (max-width: 450px) {
+    .modules-box h1, .modules-box-empty h1, .deadlines-box h1, .project-title h1{
+        font-size: 17px;
+    }
+    .timerButton {
+        font-size: 14px;
+    }
+    .create-modules-heading h1 {
+        font-size: 20px !important;
+    }
+    .form-input-btn, .delete-button {
+        font-size: 18px;
+    }
+    .display {
+        font-size: 40px;
+    }
+    .Timers {
+        width: 300px
+    }
+    #timer-buttons button {
+        font-size: 20px;
+    }
+}
